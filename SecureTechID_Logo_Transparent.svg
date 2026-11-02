@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" width="100%" height="100%">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B4F8A"/>
+      <stop offset="50%" stop-color="#083B75"/>
+      <stop offset="100%" stop-color="#041E3D"/>
+    </linearGradient>
+
+    <linearGradient id="lockGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#020D1A" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- LOGO ICON -->
+  <g id="logo-symbol" filter="url(#shadow)">
+    <!-- Outer Network Orbits -->
+    <circle cx="400" cy="180" r="145" fill="none" stroke="#0B4F8A" stroke-width="2.5" stroke-dasharray="7,5" opacity="0.7"/>
+    <circle cx="400" cy="180" r="158" fill="none" stroke="#0284C7" stroke-width="1.5" opacity="0.4"/>
+
+    <!-- Orbit Nodes & Connectors -->
+    <line x1="255" y1="180" x2="297" y2="77" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="545" y1="180" x2="503" y2="77" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="400" y1="22" x2="503" y2="77" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="400" y1="22" x2="297" y2="77" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+
+    <circle cx="255" cy="180" r="6" fill="#38BDF8"/>
+    <circle cx="545" cy="180" r="6" fill="#38BDF8"/>
+    <circle cx="400" cy="22" r="6" fill="#38BDF8"/>
+    <circle cx="297" cy="77" r="5" fill="#38BDF8"/>
+    <circle cx="503" cy="77" r="5" fill="#38BDF8"/>
+    <circle cx="315" cy="278" r="5" fill="#38BDF8"/>
+    <circle cx="485" cy="278" r="5" fill="#38BDF8"/>
+
+    <!-- Shield Outer Frame -->
+    <path d="M 400 50 
+             C 460 50, 508 67, 516 110 
+             C 516 188, 460 257, 400 283 
+             C 340 257, 284 188, 284 110 
+             C 292 67, 340 50, 400 50 Z" 
+          fill="url(#shieldGrad)" 
+          stroke="#38BDF8" 
+          stroke-width="3"/>
+
+    <!-- Inner Circuit Pathways -->
+    <path d="M 322 110 L 348 110 L 365 127 L 365 153" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="322" cy="110" r="3.5" fill="#38BDF8"/>
+    <circle cx="365" cy="153" r="3.5" fill="#38BDF8"/>
+
+    <path d="M 331 188 L 357 188 L 374 171" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="331" cy="188" r="3.5" fill="#38BDF8"/>
+
+    <path d="M 478 110 L 452 110 L 435 127 L 435 153" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="478" cy="110" r="3.5" fill="#38BDF8"/>
+    <circle cx="435" cy="153" r="3.5" fill="#38BDF8"/>
+
+    <path d="M 469 188 L 443 188 L 426 171" fill="none" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="469" cy="188" r="3.5" fill="#38BDF8"/>
+
+    <line x1="400" y1="213" x2="400" y2="235" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="400" cy="235" r="4" fill="#38BDF8"/>
+    <line x1="378" y1="209" x2="361" y2="226" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="361" cy="226" r="3.5" fill="#38BDF8"/>
+    <line x1="422" y1="209" x2="439" y2="226" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="439" cy="226" r="3.5" fill="#38BDF8"/>
+
+    <!-- Lock Shackle -->
+    <path d="M 372 131 V 114 C 372 98, 384 86, 400 86 C 416 86, 428 98, 428 114 V 131" 
+          fill="none" stroke="url(#lockGrad)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 372 131 V 114 C 372 98, 384 86, 400 86 C 416 86, 428 98, 428 114 V 131" 
+          fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- Lock Body -->
+    <rect x="358" y="128" width="84" height="70" rx="14" fill="url(#lockGrad)"/>
+    <rect x="360" y="130" width="80" height="66" rx="12" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+
+    <!-- Keyhole -->
+    <circle cx="400" cy="156" r="8" fill="#031B33"/>
+    <polygon points="395,158 405,158 402,180 398,180" fill="#031B33"/>
+  </g>
+
+  <!-- TEXT SECTION WITH EMBEDDED STYLES FOR TRANSPARENCY AND PERFECT SCALING -->
+  <style>
+    .brand-title {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 900;
+      font-size: 58px;
+      fill: #0B4F8A;
+      letter-spacing: -0.5px;
+    }
+    .text-blue {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      fill: #0B4F8A;
+      letter-spacing: 1px;
+    }
+    .text-orange {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      fill: #F97316;
+      letter-spacing: 1px;
+    }
+  </style>
+
+  <!-- SecureTechID -->
+  <text x="400" y="395" class="brand-title" text-anchor="middle">SecureTechID</text>
+
+  <!-- TECH (Blue) + ECS_EU (Orange) -->
+  <g transform="translate(400, 460)">
+    <text text-anchor="middle">
+      <tspan class="text-blue">TECH</tspan><tspan class="text-orange">ECS_EU</tspan>
+    </text>
+
+    <!-- Star Arc above EU -->
+    <g transform="translate(126, -28) scale(0.7)" fill="#F97316">
+      <path d="M 0,-6 L 1.8,-1.8 L 6.3,-1.8 L 2.7,0.9 L 4,5.4 L 0,2.7 L -4,5.4 L -2.7,0.9 L -6.3,-1.8 L -1.8,-1.8 Z" transform="translate(-16, -1) scale(0.75)" />
+      <path d="M 0,-6 L 1.8,-1.8 L 6.3,-1.8 L 2.7,0.9 L 4,5.4 L 0,2.7 L -4,5.4 L -2.7,0.9 L -6.3,-1.8 L -1.8,-1.8 Z" transform="translate(-8, -7) scale(0.85)" />
+      <path d="M 0,-6 L 1.8,-1.8 L 6.3,-1.8 L 2.7,0.9 L 4,5.4 L 0,2.7 L -4,5.4 L -2.7,0.9 L -6.3,-1.8 L -1.8,-1.8 Z" transform="translate(0, -9)" />
+      <path d="M 0,-6 L 1.8,-1.8 L 6.3,-1.8 L 2.7,0.9 L 4,5.4 L 0,2.7 L -4,5.4 L -2.7,0.9 L -6.3,-1.8 L -1.8,-1.8 Z" transform="translate(8, -7) scale(0.85)" />
+      <path d="M 0,-6 L 1.8,-1.8 L 6.3,-1.8 L 2.7,0.9 L 4,5.4 L 0,2.7 L -4,5.4 L -2.7,0.9 L -6.3,-1.8 L -1.8,-1.8 Z" transform="translate(16, -1) scale(0.75)" />
+    </g>
+  </g>
+</svg>
