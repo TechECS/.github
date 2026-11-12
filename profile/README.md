@@ -53,6 +53,10 @@ En alianza estratégica con **SecureTech**, integramos soluciones de software co
 | [**`TechPRO`**](https://github.com/TechECS/TechPRO) | Portal web para la organización y visualización multi-departamental de repositorios GitHub enterprise (públicos y privados). | Web App / Project Management Portal |
 | [**`org-ci-workflows`**](https://github.com/TechECS/org-ci-workflows) | Colección centralizada de GitHub Actions reutilizables para automatizar CI/CD, linters y estándares de código en la org. | GitHub Actions / YAML / CI/CD Automation |
 
+🛡️ **[TechCRA](https://github.com/SecureTechES/TechCRA)**
+UI Web - Operador Central Receptora de Alarmas.
+
+
 ---
 
 ## ⚙️ Estándares de Código y Gobernanza
