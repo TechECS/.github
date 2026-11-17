@@ -5,6 +5,8 @@
 # TechECS 🛡️💼
 ### *Enterprise SaaS, Integrated Workspaces & Security Engineering*
 
+<sub>🧪 <em>Organización ficticia · laboratorio de pruebas personal</em></sub>
+
 ---
 
 ### *Impulsando arquitecturas corporativas, entornos de gestión densa e integración de seguridad.*
@@ -57,5 +59,7 @@ En todos los proyectos de **TechECS_EU** aplicamos normas estrictas de desarroll
 ---
 
 <div align="center">
+  <sub><em>TechECS es una organización ficticia: forma parte de mi laboratorio de pruebas personal. Los proyectos y repositorios que ves aquí pertenecen a ese entorno de experimentación.</em></sub>
+  <br><br>
   <sub>TechECS_EU • Security & Enterprise Software Solutions © 2026.</sub>
 </div>
