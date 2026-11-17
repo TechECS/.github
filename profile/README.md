@@ -5,21 +5,6 @@
 # TechECS 🛡️💼
 ### *Enterprise SaaS, Integrated Workspaces & Security Engineering*
 
-<p align="center">
-  <a href="https://github.com/TechECS/TechCRM_CIM">
-    <img src="https://img.shields.io/badge/SaaS-TechCRM__CIM-blue?style=flat-square&logo=github" alt="TechCRM_CIM">
-  </a>
-  <a href="https://github.com/TechECS/TechPRO">
-    <img src="https://img.shields.io/badge/Dashboard-TechPRO-0052CC?style=flat-square&logo=github" alt="TechPRO">
-  </a>
-  <a href="https://github.com/TechECS/org-ci-workflows">
-    <img src="https://img.shields.io/badge/DevOps-org--ci--workflows-orange?style=flat-square&logo=githubactions" alt="org-ci-workflows">
-  </a>
-  <a href="https://github.com/SecureTechES">
-    <img src="https://img.shields.io/badge/Partner-SecureTech-green?style=flat-square" alt="SecureTech Partnership">
-  </a>
-</p>
-
 ---
 
 ### *Impulsando arquitecturas corporativas, entornos de gestión densa e integración de seguridad.*
